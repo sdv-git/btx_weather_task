@@ -21,7 +21,7 @@ $arComponentParameters = [
             'DEFAULT' => 'Moscow',
             'PARENT' => 'BASE',
         ],
-        'UNITS ' => [
+        'UNITS' => [
             'NAME' => 'Единицы измерения',
             'TYPE' => 'LIST',
             'VALUES' => [

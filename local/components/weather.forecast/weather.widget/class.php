@@ -41,7 +41,7 @@ class WeatherWidgetComponent extends CBitrixComponent
             return;
         }
         // Кешируем вывод
-        if ($this->startResultCache(1))
+        if ($this->startResultCache(false))
         {
             // получаем данные из модуля
             $this->initResult();
